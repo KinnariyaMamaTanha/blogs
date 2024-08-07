@@ -71,7 +71,6 @@ float: none; /* 清除浮动 */
 <div class="link-navigation">
 
 <div class="card">
-<img class="ava" src="https://github.com/jokerxuxu/jokerxuxu.github.io/blob/master/favicon.png"/>
 <div class="card-header">
 <div>
 <a href="https://jokerxuxu.github.io/" target="_blank">Joker Xu's Blogs</a>

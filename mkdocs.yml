@@ -55,10 +55,11 @@ theme:
 
 plugins:
   - search
-  # - git-revision-date-localized
+  - git-revision-date-localized
   - tags:
       tags_file: tags.md
       tags_hierarchy: true
+  - info
 
 extra:
   social:
@@ -79,10 +80,13 @@ markdown_extensions:
   - pymdownx.superfences
   - tables
   - meta
+  - toc:
+      permalink: true
   - pymdownx.arithmatex:  # latex支持
       generic: true
   - pymdownx.highlight: # 代码块高亮
       anchor_linenums: true
+      line_spans: __span
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -120,7 +124,10 @@ nav:
   - Learning:
     - "WSL2 重新安装配置记录": learning/wsl2-re-setup.md
   - Reading
-  - Diary
+  - Diary:
+    - 2024年:
+      - 8月:
+        - 7日: diary/2024-8-7.md
   - Others
   - Tags: tags.md
   - Links: links.md
