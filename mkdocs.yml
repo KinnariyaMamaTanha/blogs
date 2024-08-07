@@ -1,0 +1,126 @@
+site_name: Kinnari's Blogs
+site_author: Kinnariya Mama Tanha
+site_url: https://kinnariyamamatanha.github.io/blogs
+repo_url: https://github.com/KinnariyaMamaTanha/blogs/
+repo_name: Blogs
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+
+  features:
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+
+
+  palette:
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+  favicon: images/logo.jpg
+
+  icon:
+    repo: fontawesome/brands/git-alt
+
+  static_templates:
+    - 404.html
+
+plugins:
+  - search
+  # - git-revision-date-localized
+  - tags:
+      tags_file: tags.md
+      tags_hierarchy: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/KinnariyaMamaTanha
+      name: visit my GitHub profile
+    - icon: /fontawesome/regular/envelope
+      name: email to author
+      link: mailto:2823324228@qq.com
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+  - admonition
+  - abbr
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - meta
+  - pymdownx.arithmatex:  # latex支持
+      generic: true
+  - pymdownx.highlight: # 代码块高亮
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.magiclink
+  - pymdownx.caret
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - ckplayer/js/ckplayer.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; 2024 - present KinnariyaMamaTanha
+
+nav:
+  - Home: index.md
+  - Learning:
+    - "WSL2 重新安装配置记录": learning/wsl2-re-setup.md
+  - Reading
+  - Diary
+  - Others
+  - Tags: tags.md
+  - Links: links.md
