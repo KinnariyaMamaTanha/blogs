@@ -58,8 +58,6 @@ plugins:
   - git-revision-date-localized
   - tags:
       tags_file: tags.md
-      tags_hierarchy: true
-  - info
 
 extra:
   social:
@@ -86,7 +84,6 @@ markdown_extensions:
       generic: true
   - pymdownx.highlight: # 代码块高亮
       anchor_linenums: true
-      line_spans: __span
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
