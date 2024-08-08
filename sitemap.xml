@@ -2,27 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/links/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/blogs/diary/</loc>
+         <lastmod>2024-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/diary/2024-8-7/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/blogs/diary/2024-8-8/</loc>
+         <lastmod>2024-08-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/blogs/learning/</loc>
+         <lastmod>2024-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/learning/wsl2-re-setup/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/blogs/others/</loc>
+         <lastmod>2024-08-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kinnariyamamatanha.github.io/blogs/reading/</loc>
+         <lastmod>2024-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kinnariyamamatanha.github.io/blogs/tags/</loc>
-         <lastmod>2024-08-07</lastmod>
+         <lastmod>2024-08-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
