@@ -17,7 +17,6 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.expand
     - search.highlight
     - search.share
     - search.suggest
@@ -119,12 +118,18 @@ copyright: Copyright &copy; 2024 - present KinnariyaMamaTanha
 nav:
   - Home: index.md
   - Learning:
-    - "WSL2 重新安装配置记录": learning/wsl2-re-setup.md
-  - Reading
+    - 说明: learning/index.md
+    - 2024年:
+      - "WSL2 重新安装配置记录": learning/wsl2-re-setup.md
+  - Reading:
+    - 说明: reading/index.md
   - Diary:
+    - 说明: diary/index.md
     - 2024年:
       - 8月:
         - 7日: diary/2024-8-7.md
-  - Others
+        - 8日: diary/2024-8-8.md
+  - Others:
+    - 说明: others/index.md
   - Tags: tags.md
   - Links: links.md

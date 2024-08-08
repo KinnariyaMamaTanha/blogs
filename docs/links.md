@@ -80,6 +80,15 @@ float: none; /* 清除浮动 */
 </div>
 </div>
 
+<div class="card">
+<div class="card-header">
+<div>
+<a href="https://aitour.icu" target="_blank">aiTour</a>
 </div>
+<div class="info">My aiTour</div>
+</div>
+</div>
+</div>
+
 </div>
 </div>
