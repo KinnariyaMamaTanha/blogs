@@ -893,9 +893,9 @@ cusdis:
 # See: https://giscus.app/
 giscus:
   repo: KinnariyaMamaTanha/blogs
-  repo-id: R_kgDOMgXBqA
-  category: Q&A
-  category-id: DIC_kwDOMgXBqM4Ci6iN
+  repo-id: R_kgDOM5Jurw
+  category: general
+  category-id: DIC_kwDOM5Jur84Ci6oZ
   theme-light: light
   theme-dark: dark
   mapping: pathname
